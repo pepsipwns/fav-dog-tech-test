@@ -1,6 +1,5 @@
 import Button from '@/components/Button/Button'
 import ImageCard from '@/components/ImageCard/ImageCard'
-import { favDogsTestList } from '@/components/ImageCard/ImageCard.data'
 import PageContainer from '@/components/PageContainer/PageContainer'
 import { useDogContext } from '@/context/DogContext'
 import Link from 'next/link'

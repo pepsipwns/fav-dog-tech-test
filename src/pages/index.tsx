@@ -26,7 +26,6 @@ const Home = () => {
 
   const addDog = (dog: string) => {
     addDogToFavourites(dog)
-    console.log('favouriteDogs', favouriteDogs)
     setCardBg('bg-green-200')
     setDog('success')
     setTimeout(() => {
