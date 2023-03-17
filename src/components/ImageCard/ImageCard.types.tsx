@@ -5,4 +5,5 @@ export interface ImageCardProps {
   alt: string
   size?: 'sm' | 'lg'
   children?: ReactNode
+  cardBg?: string
 }
